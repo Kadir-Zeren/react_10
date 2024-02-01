@@ -1,9 +1,12 @@
-function App() {
-  //? js kodları
+import "./App.css"
+import Home from "./pages/Home"
+// import { AiOutlineDelete } from "react-icons/ai"
+
+const App = () => {
   return (
-    //? JSX (Javascript - HTML)
-    <div className="App">
-      <h1>Hello React</h1>
+    <div>
+      <Home />
+      {/* <AiOutlineDelete className="text-danger fs-3" /> */}
     </div>
   )
 }
